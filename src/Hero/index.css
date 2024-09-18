@@ -1,0 +1,25 @@
+.form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+    background-color: #df6b1b;
+}
+.form select ,
+.form input ,
+.form button{
+    width: 60px;
+    height: 100%;
+    border: none;
+    background-color: #fde7aa;
+    /* font-size: 18px; */
+    color: #643c13;
+    font-weight: bold;
+    text-align: center;
+    outline: none;
+    border-radius:30px;
+    padding: 6px;
+}

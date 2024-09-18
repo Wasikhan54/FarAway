@@ -1,0 +1,8 @@
+.stats{
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+}
+.stats p{
+    font-weight: 600;
+}

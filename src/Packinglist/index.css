@@ -1,0 +1,52 @@
+.packinglist {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping */
+    gap: 10px; /* Adds spacing between items */
+    width: 100%; /* Ensures the container takes full width */
+    /* border: 1px solid #ccc; */
+    height: 50vh;
+}
+
+.item {
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: calc(20% - 10px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.item p {
+    margin: 0;
+    /* flex-grow: 1; */
+    /* margin-left: 10px; */
+    color: #fde7aa;
+    padding: 0 20px;
+    font-size: 16px;
+}
+
+.item input[type='checkbox'] {
+    margin-right: 10px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    gap: 20px   ;
+}
+.button select ,
+.button input ,
+.button button{
+    width: 100px;
+    gap: 20px;
+    height: 100%;
+    border: none;
+    background-color: #fde7aa;
+    /* font-size: 18px; */
+    color: #643c13;
+    font-weight: bold;
+    text-align: center;
+    outline: none;
+    border-radius:30px;
+    padding: 6px;
+}
